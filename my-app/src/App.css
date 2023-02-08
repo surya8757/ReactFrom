@@ -1,0 +1,58 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.app{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  align-items: center;
+}
+.form{
+  margin:20px auto;
+  width:30%;
+  text-align: center;
+
+}
+legend{
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  color:orange;
+}
+.form-field{
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: azure;
+  border-radius: 10px;
+}
+.form-item{
+  margin-top: 30px;
+  margin-bottom:50px;
+  height: 5px;
+}
+label{
+  display: block;
+  font-size:medium;
+  font-weight: 600;
+  font-family:'Courier New';
+  color:black;
+}
+input{
+  padding: 4px 30px 4px 30px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+button{
+  padding: 2px 30px 2px 30px;
+  font-weight: 600;
+  color: black;
+  border-radius: 5px;
+  background-color: red;
+  cursor: pointer;
+  border: none;
+}
